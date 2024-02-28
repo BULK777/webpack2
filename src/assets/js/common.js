@@ -2,4 +2,14 @@
 // import './sub';
 // import './app.scss';
 
-console.log('this is a comon js file.');
+
+
+
+// const init = async () => {
+// 	console.log('this is a comon js file.');
+// 	await asyncFn();
+// };
+// async function asyncFn() {
+// 	console.log('Im async function');
+// }
+// init();

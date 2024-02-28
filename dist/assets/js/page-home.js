@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/assets/js/page-home.js":
+/*!************************************!*\
+  !*** ./src/assets/js/page-home.js ***!
+  \************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_page_home_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/page-home.scss */ \"./src/assets/css/page-home.scss\");\n// import sub from './sub';\n// import './sub';\n\nconsole.log('this is a home js file.');\n\n//# sourceURL=webpack://wabpack2/./src/assets/js/page-home.js?");
+
+/***/ }),
+
 /***/ "./src/assets/css/page-home.scss":
 /*!***************************************!*\
   !*** ./src/assets/css/page-home.scss ***!
@@ -17,16 +27,6 @@
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://wabpack2/./src/assets/css/page-home.scss?");
-
-/***/ }),
-
-/***/ "./src/assets/js/page-home.js":
-/*!************************************!*\
-  !*** ./src/assets/js/page-home.js ***!
-  \************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_page_home_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/page-home.scss */ \"./src/assets/css/page-home.scss\");\n// import sub from './sub';\n// import './sub';\n\n\nconsole.log('this is a home js file.');\n\n//# sourceURL=webpack://wabpack2/./src/assets/js/page-home.js?");
 
 /***/ })
 

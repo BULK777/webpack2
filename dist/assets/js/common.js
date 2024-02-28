@@ -15,7 +15,7 @@
   \*********************************/
 /***/ (function() {
 
-eval("// import sub from './sub';\n// import './sub';\n// import './app.scss';\n\nconsole.log('this is a comon js file.');\n\n//# sourceURL=webpack://wabpack2/./src/assets/js/common.js?");
+eval("// import sub from './sub';\n// import './sub';\n// import './app.scss';\n\nconst init = async () => {\n  console.log('this is a comon js file.');\n  await asyncFn();\n};\nasync function asyncFn() {\n  console.log('Im async function');\n}\ninit();\n\n//# sourceURL=webpack://wabpack2/./src/assets/js/common.js?");
 
 /***/ })
 

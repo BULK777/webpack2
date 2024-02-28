@@ -34,6 +34,14 @@ module.exports = {
 	module: {
 		rules: [
 			{
+				test: /\.(?:js|mjs|cjs)$/,
+				exclude: /node_modules/,
+				use: [
+					'babel-loader',
+					'eslint-loader',
+				]
+			},
+			{
 				test: /\.(css|sass|scss)$/,
 				use: [
 					{
