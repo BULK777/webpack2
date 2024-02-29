@@ -1,8 +1,10 @@
 // import sub from './sub';
 // import './sub';
-// import './app.scss';
+import '@scss/main';
 
 
+const test = $('.bg');
+console.log(test);
 
 
 // const init = async () => {

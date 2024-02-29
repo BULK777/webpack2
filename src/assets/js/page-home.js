@@ -1,5 +1,5 @@
 // import sub from './sub';
 // import './sub';
-import '../css/page-home.scss';
+import '@scss/page-home';
 
-console.log('this is a home js file.');
+// console.log('this is a home js file.');

@@ -1,0 +1,34 @@
+// h1 {
+// 	display: flex;
+// 	display: grid;
+// 	font-size: 2em;
+// 	transition: all .3s ease;
+// 	color: blue;
+// 	mix-blend-mode: multiply;
+// 	filter: blur(4px);
+// 	text-size-adjust: 100%;
+
+// 	&:hover {
+// 		transform: translateX(50px);
+// 		color: red;
+// 	}
+// }
+
+.bg {
+	// background-image: url('~@images/test.png');
+	background-image: url('~images/test.png');
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+}
+
+// .bg2 {
+// 	background-image: url('../images/home/test.png');
+// 	background-size: cover;
+// 	width: 100px;
+// 	height: 100px;
+// }
+
+body {
+	background-color: red;
+}

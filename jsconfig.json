@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./src/asstes",
+		"paths": {
+			"@scss": ["asstes/scss"],
+			"@js": ["asstes/js"],
+			"@css": ["asstes/css"],
+			"@images": ["asstes/images"]
+		}
+	}
+}

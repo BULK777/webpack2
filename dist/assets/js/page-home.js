@@ -1,32 +1,16 @@
-/*
- * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 /******/ (function() { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/assets/js/page-home.js":
-/*!************************************!*\
-  !*** ./src/assets/js/page-home.js ***!
-  \************************************/
+/***/ "./src/assets/scss/page-home.scss":
+/*!****************************************!*\
+  !*** ./src/assets/scss/page-home.scss ***!
+  \****************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_page_home_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/page-home.scss */ \"./src/assets/css/page-home.scss\");\n// import sub from './sub';\n// import './sub';\n\nconsole.log('this is a home js file.');\n\n//# sourceURL=webpack://wabpack2/./src/assets/js/page-home.js?");
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
 
-/***/ }),
-
-/***/ "./src/assets/css/page-home.scss":
-/*!***************************************!*\
-  !*** ./src/assets/css/page-home.scss ***!
-  \***************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://wabpack2/./src/assets/css/page-home.scss?");
 
 /***/ })
 
@@ -69,11 +53,20 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 	}();
 /******/ 	
 /************************************************************************/
-/******/ 	
-/******/ 	// startup
-/******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/assets/js/page-home.js");
-/******/ 	
+var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+!function() {
+/*!************************************!*\
+  !*** ./src/assets/js/page-home.js ***!
+  \************************************/
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _scss_page_home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @scss/page-home */ "./src/assets/scss/page-home.scss");
+// import sub from './sub';
+// import './sub';
+
+
+// console.log('this is a home js file.');
+}();
 /******/ })()
 ;
+//# sourceMappingURL=page-home.js.map
